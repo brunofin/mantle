@@ -1,0 +1,34 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Electron21Fix = exports.Fix = exports.WhatsNewModule = exports.MenuModule = exports.SpellCheckModule = exports.TrayModule = exports.WindowSettingsModule = exports.HotkeyModule = exports.ModuleManager = exports.Module = exports.getUnreadMessages = exports.findIcon = exports.Settings = exports.App = void 0;
+var app_1 = require("./app");
+Object.defineProperty(exports, "App", { enumerable: true, get: function () { return __importDefault(app_1).default; } });
+var settings_1 = require("./settings");
+Object.defineProperty(exports, "Settings", { enumerable: true, get: function () { return __importDefault(settings_1).default; } });
+var util_1 = require("./util");
+Object.defineProperty(exports, "findIcon", { enumerable: true, get: function () { return util_1.findIcon; } });
+Object.defineProperty(exports, "getUnreadMessages", { enumerable: true, get: function () { return util_1.getUnreadMessages; } });
+var module_1 = require("./module/module");
+Object.defineProperty(exports, "Module", { enumerable: true, get: function () { return __importDefault(module_1).default; } });
+var module_manager_1 = require("./module/module-manager");
+Object.defineProperty(exports, "ModuleManager", { enumerable: true, get: function () { return __importDefault(module_manager_1).default; } });
+var hotkey_module_1 = require("./module/hotkey-module");
+Object.defineProperty(exports, "HotkeyModule", { enumerable: true, get: function () { return __importDefault(hotkey_module_1).default; } });
+var window_settings_module_1 = require("./module/window-settings-module");
+Object.defineProperty(exports, "WindowSettingsModule", { enumerable: true, get: function () { return __importDefault(window_settings_module_1).default; } });
+var tray_module_1 = require("./module/tray-module");
+Object.defineProperty(exports, "TrayModule", { enumerable: true, get: function () { return __importDefault(tray_module_1).default; } });
+var spellcheck_module_1 = require("./module/spellcheck-module");
+Object.defineProperty(exports, "SpellCheckModule", { enumerable: true, get: function () { return __importDefault(spellcheck_module_1).default; } });
+var menu_module_1 = require("./module/menu-module");
+Object.defineProperty(exports, "MenuModule", { enumerable: true, get: function () { return __importDefault(menu_module_1).default; } });
+var whatsnew_module_1 = require("./module/whatsnew-module");
+Object.defineProperty(exports, "WhatsNewModule", { enumerable: true, get: function () { return __importDefault(whatsnew_module_1).default; } });
+var fix_1 = require("./fix/fix");
+Object.defineProperty(exports, "Fix", { enumerable: true, get: function () { return __importDefault(fix_1).default; } });
+var electron_21_fix_1 = require("./fix/electron-21-fix");
+Object.defineProperty(exports, "Electron21Fix", { enumerable: true, get: function () { return __importDefault(electron_21_fix_1).default; } });
+//# sourceMappingURL=index.js.map
