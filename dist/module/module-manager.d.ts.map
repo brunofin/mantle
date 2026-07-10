@@ -1,1 +1,0 @@
-{"version":3,"file":"module-manager.d.ts","sourceRoot":"","sources":["../../src/module/module-manager.ts"],"names":[],"mappings":"AAAA,OAAO,MAAM,MAAM,UAAU,CAAC;AAE9B,MAAM,CAAC,OAAO,OAAO,aAAc,YAAW,MAAM;IAEtC,OAAO,CAAC,QAAQ,CAAC,OAAO;gBAAP,OAAO,EAAE,KAAK,CAAC,MAAM,CAAC;IAE5C,UAAU;IAIV,MAAM;IAIN,MAAM;IAIb,OAAO,CAAC,OAAO;CAGhB"}
